@@ -175,7 +175,7 @@
             // For simplicity, we'll only consider the first touch point
             if (e.touches.length > 0) {
                 const touch = e.touches[0];
-                startLongPressDetection(touch.clientX, touch.clientY);
+                startLongPressDetection(touch.clientX, touch.clientY, "mobile");
             }
         });
         
